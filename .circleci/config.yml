@@ -9,7 +9,6 @@ jobs:
     steps:
       - checkout
 
-
       - run:
           name: build dependencies
           command: bundle install
@@ -19,3 +18,4 @@ jobs:
           command: bundle exec jekyll build
 
      
+
